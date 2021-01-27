@@ -1,8 +1,9 @@
 # vue-splash
 The source used for my blogpost on creating a splash screen in vue https://visualbean.medium.com/simple-vue-splash-screen-f734b096d919
 
-The basic idea is to simply add whichever splash/loading screen you want inside your hook point (`<div id="app"></div>`).
-Once your app has completed loading whatever it needs (in `beforeMount` and `init`)
+The basic idea is to simply add whichever splash/loading screen you want inside your hook point (`<div id="app"></div>`),
+Once your app has completed loading whatever it needs (in `beforeMount` and `init`).
+
 In this project we simply mimic loading time by adding 
 
 ``` javascript
